@@ -23,3 +23,10 @@ Includes Documentation
 //FIFO_DEPTH
 //CLOCK_FREQ
 //BAUD_RATE
+
+module UART(input d,       // Data input
+              input 			clk,     // Clock signal
+              input 			rstn,    // Active-low synchronous reset
+              output reg	q);    
+
+endmodule
