@@ -33,9 +33,9 @@ module transmitter(
 		begin
 		state_next = state_reg;
 		tx_done = 1'b0;
-		s_next <= s_reg;
-		n_next <= n_reg;
-		b_next <= b_reg;
+		s_next = s_reg;
+		n_next = n_reg;
+		b_next = b_reg;
 		tx_next = tx_reg;
 		case (state_reg)
 			idle: begin
